@@ -7,8 +7,8 @@
 		private $header;
 		private $footer;
 
-		const titulo = 'Projeto MVC';
-		public $menuItems = array('Home','Outro');
+		const titulo = 'Curriculum Vitae';
+		public $menuItems = array('');
 
 		public function __construct($fileName,$header = 'header',$footer = 'footer'){
 			$this->fileName = $fileName;
