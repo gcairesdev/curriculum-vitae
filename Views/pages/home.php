@@ -3,11 +3,11 @@
         <section class="dados_pessoais">
             <h2>1.1 Dados pessoais</h2>
             <div class="form-group">
-                Nome completo <span class="color-red">*</span>
+                Nome completo <span class="text-red">*</span>
                 <input type="text" name="nome_completo" class="form-control" id="nome_completo" maxlength="45" required>
             </div>
             <div class="form-group">
-                E-mail <span class="color-red">*</span>
+                E-mail <span class="text-red">*</span>
                 <input type="email" name="email" class="form-control" id="email" required>
             </div>
             <div class="form-group">
