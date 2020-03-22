@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title><?php echo self::titulo; ?></title>
+	<link rel="icon" type="image/png" href="<?php echo INCLUDE_PATH_FULL ?>img/favicon.ico">
+	<link href="<?php echo INCLUDE_PATH_FULL ?>css/reset.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo INCLUDE_PATH_FULL ?>css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
