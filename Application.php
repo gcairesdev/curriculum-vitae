@@ -1,7 +1,7 @@
 <?php
 	
 	define('INCLUDE_PATH','http://localhost/curriculum-vitae/');
-	define('INCLUDE_PATH_FULL','http://localhost/curriculum-vitae//Views/pages/');
+	define('INCLUDE_PATH_FULL','http://localhost/curriculum-vitae/Views/pages/');
 	class Application
 	{
 		
