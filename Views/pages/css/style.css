@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body{
+    background: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.curriculum-vitae{
+    max-width: 650px;
+    margin-top: 50px;
+    box-shadow: slategrey 5px 10px 15px;
+}
+
+.curriculum-vitae section{
+    background: #ffffff;
+}
+
+.dados-pessoais{
+    display: block;
+}
+.formacao_academica{
+    display: block;
+}
+.experiencia{
+    display: block;
+}
+.info_adicionais{
+    display: block;
+}
+
+.titulo-seccao{
+    background: #2b6696;
+    color: #ffffff;
+    height: 40px;
+    font-size: 17pt;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.form-group{
+    margin: 15px 10px;
+}

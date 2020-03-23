@@ -1,7 +1,7 @@
-<div class="container">
+<div class="curriculum-vitae container" id="">
     <form action="" method="post">
-        <section class="dados_pessoais">
-            <h2>1.1 Dados pessoais</h2>
+        <section class="dados-pessoais">
+            <h2 class="titulo-seccao">1.1 Dados pessoais</h2>
             <div class="form-group">
                 Nome completo <span class="text-red">*</span>
                 <input type="text" name="nome_completo" class="form-control" id="nome_completo" maxlength="45" required>
@@ -82,7 +82,7 @@
                 <input type="text" name="cep" class="form-control" id="cep">
             </div>
 
-            <h2>1.2 Objetivo</h2>
+            <h2 class="titulo-seccao">1.2 Objetivo</h2>
             <div class="form-group">
                 Faça um pequeno texto, objetivo e claro
                 <textarea name="objetivo" class="form-control" id="objetivo" rows="5"></textarea>
@@ -90,7 +90,7 @@
         </section>
 
         <section class="formacao_academica">
-            <h2>2.1 Formação acadêmica</h2>
+            <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
             <div class="form-group">
                 Curso
                 <input type="text" class="form-control" name="curso[]">
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <h2>2.2 Qualificações e cursos complementares</h2>
+            <h2 class="titulo-seccao">2.2 Qualificações e cursos complementares</h2>
             <div class="form-group">
                 Descreva algumas outras qualificaçoes
                 <textarea name="outras_qualificacoes" class="form-control" id="outras_qualificacoes" rows="5"></textarea>
@@ -118,7 +118,7 @@
         </section>
         
         <section class="experiencia">
-            <h2>3.2 Experiência</h2>
+            <h2 class="titulo-seccao">3.2 Experiência</h2>
             <div class="form-group">
                 Empresa
                 <input type="text" class="form-control" name="empresa[]">
@@ -150,7 +150,7 @@
                 <textarea name="descricao_experiencia[]" class="form-control" id="descricao_experiencia" rows="5"></textarea>
             </div>
 
-            <h2>3.2 Atividades complementares</h2>
+            <h2 class="titulo-seccao">3.2 Atividades complementares</h2>
             <div class="form-group">
                 Descreva algumas atividades complementares
                 <textarea name="descricao_experiencia[]" class="form-control" id="descricao_experiencia" rows="5"></textarea>
@@ -158,7 +158,7 @@
         </section>
         
         <section class="info_adicionais">
-            <h2>4.1 Informações adicionais</h2>
+            <h2 class="titulo-seccao">4.1 Informações adicionais</h2>
             <div class="form-group">
                 Descreva algumas informações adicionais
                 <textarea name="informacoes_adicionais" class="form-control" id="informacoes_adicionais" rows="5"></textarea>
