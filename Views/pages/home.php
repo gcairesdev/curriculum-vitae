@@ -26,10 +26,10 @@
                         <label for="genero">Gênero</label>
                         <select name="genero" class="form-control" id="genero">
                             <option value=""></option>
-                            <option value="1">Masculino</option>
-                            <option value="2">Feminino</option>
-                            <option value="3">Outro</option>
-                            <option value="4">Prefiro não dizer</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Outro">Outro</option>
+                            <option value="Prefiro não dizer">Prefiro não dizer</option>
                         </select>
                     </div>
                 </div>  
@@ -38,11 +38,11 @@
                 <label for="estado_civil">Estado civil</label>
                 <select name="estado_civil" class="form-control" id="estado_civil">
                     <option value=""></option>
-                    <option value="1">Solteiro(a)</option>
-                    <option value="2">Casado(a)</option>
-                    <option value="3">Divorciado(a)</option>
-                    <option value="4">Viúvo(a)</option>
-                    <option value="5">Separado(a)</option>
+                    <option value="Solteiro(a)">Solteiro(a)</option>
+                    <option value="Casado(a)">Casado(a)</option>
+                    <option value="Divorciado(a)">Divorciado(a)</option>
+                    <option value="Viúvo(a)">Viúvo(a)</option>
+                    <option value="Separado(a)">Separado(a)</option>
                 </select>
             </div>
             <div class="row">
@@ -55,7 +55,7 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="celular">Celular</label>
-                        <input type="text" name="tel_residencial" class="form-control" id="celular" placeholder="(00) 9 1234-5678">
+                        <input type="text" name="celular" class="form-control" id="celular" placeholder="(00) 9 1234-5678">
                     </div>
                 </div>
             </div>
