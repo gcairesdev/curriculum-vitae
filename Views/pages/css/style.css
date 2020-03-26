@@ -15,18 +15,10 @@ body{
     background: #ffffff;
 }
 
-.dados-pessoais{
-    display: block;
-}
-.formacao_academica{
-    display: block;
-}
-.experiencia{
-    display: block;
-}
-.info_adicionais{
-    display: block;
-}
+.ative{display: block;}
+
+section{display: none;}
+
 
 .titulo-seccao{
     background: #2b6696;

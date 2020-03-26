@@ -1,6 +1,6 @@
 <div class="curriculum-vitae container" id="">
-    <form action="" method="post">
-        <section class="dados-pessoais">
+    <form class="form" action="" method="post">
+        <section class="ative">
             <h2 class="titulo-seccao">1.1 Dados pessoais</h2>
             <div class="form-group">
                 <label for="nome_completo">Nome completo <span class="text-red">*</span></label>
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <section class="formacao_academica">
+        <section>
             <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
             <div class="form-group">
                 <label for="curso">Curso</label>
@@ -117,7 +117,7 @@
             </div>
         </section>
         
-        <section class="experiencia">
+        <section>
             <h2 class="titulo-seccao">3.2 Experiência</h2>
             <div class="form-group">
                 <label for="empresa">Empresa</label>
@@ -157,7 +157,7 @@
             </div>
         </section>
         
-        <section class="info_adicionais">
+        <section>
             <h2 class="titulo-seccao">4.1 Informações adicionais</h2>
             <div class="form-group">
                 <label for="informacoes_adicionais">Descreva algumas informações adicionais</label>
@@ -169,10 +169,10 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col">
-                        <button type="button" class="form-control btn btn-secondary" id="anterior">< Anterior</button>
+                        <button type="button" class="prev form-control btn btn-secondary" id="anterior">< Anterior</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="form-control btn btn-primary" id="seguinte">Seguinte ></button>
+                        <button type="button" class="next form-control btn btn-primary" id="seguinte">Seguinte ></button>
                     </div>
                 </div>
                 <div class="row">
