@@ -90,6 +90,7 @@
         </section>
 
         <section>
+            <div id="formacoes">
             <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
             <div class="form-group">
                 <label for="curso">Curso</label>
@@ -110,6 +111,8 @@
                 </div>
             </div>
 
+            </div>
+            
             <h2 class="titulo-seccao">2.2 Qualificações e cursos complementares</h2>
             <div class="form-group">
                 <label for="outras_qualificacoes">Descreva algumas outras qualificaçoes</label>
@@ -169,10 +172,10 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col">
-                        <button type="button" class="prev form-control btn btn-secondary" id="anterior">< Anterior</button>
+                        <button type="button" class="prev form-control btn btn-secondary" id="anterior"><i class="fas fa-arrow-left"></i> Anterior</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="next form-control btn btn-primary" id="seguinte">Seguinte ></button>
+                        <button type="button" class="next form-control btn btn-primary" id="seguinte">Seguinte <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
                 <div class="row">

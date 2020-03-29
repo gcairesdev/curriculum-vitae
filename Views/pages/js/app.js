@@ -5,7 +5,7 @@ $(document).ready(function(){
        addClass('ative').prev().
        removeClass('ative');
  })
- })
+ });
  
  // Função do botão anterior
  $(document).ready(function(){
@@ -14,4 +14,11 @@ $(document).ready(function(){
        addClass('ative').next().
        removeClass('ative');
  })
- })
+ });
+// Função para por mascaras nos inputs
+$(document).ready(function(){
+   $("#tel_residencial").mask('(99) 9999-9999');
+   $("#celular").mask('(99) 9 9999-9999');
+   $("#cep").mask('99.999-999');
+
+});
