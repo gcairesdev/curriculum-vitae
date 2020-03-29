@@ -92,6 +92,7 @@
         <section>
             <div id="formacoes">
             <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
+            <button id="adiciona-formacao" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar formação</button>
             <div class="form-group">
                 <label for="curso">Curso</label>
                 <input type="text" class="form-control" id="curso" name="curso[]">

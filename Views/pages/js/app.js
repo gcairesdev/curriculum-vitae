@@ -22,3 +22,44 @@ $(document).ready(function(){
    $("#cep").mask('99.999-999');
 
 });
+
+//Função para adicionar uma nova formação acadêmica.
+$('#adiciona-formacao').click(function(e){
+
+   e.preventDefault();//Evita que o formulário seja enviado após clicar no botão.
+
+   var linha =     '<div class="formacao">'+
+                      '<div class="formacao-body">'+
+                         '<div class="form-group">'+
+                         '<label for="curso">Curso</label>'+
+                         '<input type="text" class="form-control" id="curso" name="curso[]">'+
+                         '</div>'+
+ 
+                         '<div class="row">'+
+                              '<div class="col">'+
+                                 '<div class="form-group">'+
+                              '      <label for="instituicao">Instituição</label>'+
+                              '      <input type="text" class="form-control" id="instituicao" name="instituicao[]">'+
+                              '   </div>'+
+                              '</div>'+
+                              '<div class="col">'+
+                              '   <div class="form-group">'+
+                              '      <label for="ano_conclusao">Ano de conclusão</label>'+
+                              '      <input type="text" class="form-control" name="ano_conclusao[]">'+
+                              '   </div>'+
+                              '</div>'+
+                              '<div class="col">'+
+                              '   <div class="form-group">'+
+                                    '<button id="remover-formacao" class="btn btn-secondary"><i class="fas fa-trash-alt"></i></button>'+
+                                 '</div>'+
+                              '</div>'+
+                           '</div>'+
+                      '</div>'+
+                   '</div>';
+   
+   $('#formacoes').append(linha);//Adiciona nova linha como filha na div formações
+
+   $('#formacoes').on("click", "#remover-formacao", function(){//Função para remover a div adicionada
+      $(this).parent().parent().parent().parent().remove();//Sobe na árvore de elementos até chegar na div pai adicionada e a remove.
+   })
+});
