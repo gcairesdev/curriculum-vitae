@@ -1,25 +1,127 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* Correção do Bootstrap */
+    #curriculum-vitae.container{
+        padding: 0;
+    }
+    #preview .col-8, #preview .col-4{
+        padding: 0;
+    }
+    .preview-toolbar .row{
+        margin: 0;
+    }
+/* Correção do Bootstrap */
 
-body{
-    background: #eee;
-    font-family: 'Open Sans', sans-serif;
-}
 
-.curriculum-vitae{
-    max-width: 650px;
+
+/* Curriculum */
+#curriculum-vitae{
+    max-width: 750px;
     margin-top: 50px;
+    background: #ffffff;
     box-shadow: slategrey 5px 10px 15px;
 }
+/* Curriculum */
 
-.curriculum-vitae section{
-    background: #ffffff;
+
+
+/* Preview */
+#preview{
+    font-size: 14px;
 }
 
-.ative{display: block;}
+.preview-toolbar{
+    padding: 10px;
+    border-top: 2px solid #dedede;
+    border-bottom: 2px solid #dedede;
+    background-color: #f9f9f9;
+}
+/* Preview */
 
-section{display: none;}
 
 
+/* Preview header */
+#preview-header{}
+/* Preview header */
+
+
+
+/* Preview main */
+#preview-main{}
+
+#preview-main h2, #preview-main h3{
+    font-family: "Roboto", sans-serif; 
+}
+#preview h3{
+    font-size: 21px;
+    font-weight: bold;
+    color: #343433;
+}
+
+.preview-step{
+    margin: 50px 0;
+}
+
+#preview-dados-pessoais{
+    margin-bottom: 50px;
+}
+
+#preview-info-pessoais{
+    padding: 0 30px;
+    margin: 50px 0 30px 0;
+}
+
+#preview-info-pessoais h2 {
+    margin-bottom: 20px;
+}
+
+#preview-info-pessoais p {
+    margin: 0;
+}
+
+#preview-contato ul{
+    padding: 0 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#preview-objetivo{
+    padding: 0 30px;
+}
+
+#preview-formacao{
+    padding: 0 30px;
+}
+
+#preview-qualificacoes{
+    padding: 0 30px;
+}
+
+#preview-experiencia{
+    padding: 0 30px;
+}
+
+#preview-atv-complementares{
+    padding: 0 30px;
+}
+
+#preview-info-adicionais{
+    padding: 0 30px;
+}
+
+/* Preview main */
+
+
+
+/* Preview footer */
+#preview-footer{}
+/* Preview main */
+
+
+
+
+
+/* 
 .titulo-seccao{
     background: #2b6696;
     color: #ffffff;
@@ -30,21 +132,49 @@ section{display: none;}
 }
 
 .form-group{
-    margin: 15px 10px;
+    margin: 15px 0;
 }
 
-.botoes-footer{
-    margin: 10px;
+.preview-main{
+    padding: 0 20px;
+    margin-bottom: 100px;
 }
 
-.botoes-footer button{
-    margin: 10px 0;
+.preview-main h2{
+    margin-bottom: 20px;
+}
+
+.preview h3{
+    font-size: 14pt;
+}
+
+.preview-main .dados-pessoais .topo{
+    margin-top: 50px;
+}
+
+.preview-main .dados-pessoais .topo p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.preview-main .contato{
+    background: #eeeeee;
+    margin: 40px 0;
 }
 
 
-#adiciona-formacao{margin: 10px 10px;}
-#remover-formacao{
-    margin-top: 20px;
-    margin-right: 20px;
-    height: 35px;
+
+.preview-main .contato ul li{
+    display: flex;
+    align-items: center;
 }
+
+.preview-main .descricao p{
+    margin-left: 60px;
+    padding-left: 10px;
+    border-left: 2px solid #dedede;
+}
+
+*/
+.ative{display: block;}
+section{display: none;}
