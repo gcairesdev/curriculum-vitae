@@ -144,6 +144,17 @@
     margin-bottom: 20px;
 }
 
+.botoes-footer button{
+    margin: 10px 0;
+}
+
+
+#adiciona-formacao{margin: 10px 10px;}
+#remover-formacao{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 35px;
+}
 .preview h3{
     font-size: 14pt;
 }
