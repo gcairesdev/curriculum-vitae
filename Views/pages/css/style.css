@@ -39,13 +39,17 @@
 
 
 /* Preview header */
-#preview-header{}
+#preview-header{
+    
+}
 /* Preview header */
 
 
 
 /* Preview main */
-#preview-main{}
+#preview-main{
+
+}
 
 #preview-main h2, #preview-main h3{
     font-family: "Roboto", sans-serif; 
@@ -114,7 +118,9 @@
 
 
 /* Preview footer */
-#preview-footer{}
+#preview-footer{
+
+}
 /* Preview main */
 
 
