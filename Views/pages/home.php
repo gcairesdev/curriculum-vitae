@@ -1,6 +1,6 @@
 <div id="curriculum-vitae" class="container">
 
-    <div id="preview">
+<div id="preview">
         <headear id="preview-header">
             <div class="preview-toolbar">
                 <div class="row">
@@ -143,8 +143,7 @@
         </footer> <!-- preview-footer -->
     </div> <!-- preview -->
 
-
-
+    
     <!-- <form class="form" action="" method="post">
         <section class="ative">
             <h2 class="titulo-seccao">1.1 Dados pessoais</h2>
@@ -268,43 +267,46 @@
         </section>
         
         <section>
-            <h2 class="titulo-seccao">3.2 Experiência</h2>
-            <div class="form-group">
-                <label for="empresa">Empresa</label>
-                <input type="text" class="form-control" id="empresa" name="empresa[]">
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <label for="inicio_experiencia">Início em</label>
-                        <input type="date" class="form-control" id="inicio_experiencia" name="inicio_experiencia[]">
+            <div id="experiencias">
+                <h2 class="titulo-seccao">3.2 Experiência</h2>
+                <button id="adiciona-experiencia" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar experiência</button>
+                <div class="form-group">
+                    <label for="empresa">Empresa</label>
+                    <input type="text" class="form-control" id="empresa" name="empresa[]">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="inicio_experiencia">Início em</label>
+                            <input type="date" class="form-control" id="inicio_experiencia" name="inicio_experiencia[]">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="fim_experiencia">Fim em</label>
+                            <input type="date" class="form-control" id="fim_experiencia" name="fim_experiencia[]">
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="form-group">
-                        <label for="fim_experiencia">Fim em</label>
-                        <input type="date" class="form-control" id="fim_experiencia" name="fim_experiencia[]">
-                    </div>
+                <div class="form-group">
+                    <input type="checkbox" name="trabalho_atual" id="trabalho_atual">
+                    <label for="trabalho_atual">Trabalho atualmente nessa empresa</label>
                 </div>
-            </div>
-            <div class="form-group">
-                <input type="checkbox" name="trabalho_atual" id="trabalho_atual">
-                <label for="trabalho_atual">Trabalho atualmente nessa empresa</label>
-            </div>
-            <div class="form-group">
-                <label for="cargo">Cargo</label>
-                <input type="text" class="form-control" id="cargo" name="cargo[]">
-            </div>
-            <div class="form-group">
-                <label for="descricao_experiencia">Descrição das suas principais funções na empresa</label>
-                <textarea name="descricao_experiencia[]" class="form-control" id="descricao_experiencia" rows="5"></textarea>
+                <div class="form-group">
+                    <label for="cargo">Cargo</label>
+                    <input type="text" class="form-control" id="cargo" name="cargo[]">
+                </div>
+                <div class="form-group">
+                    <label for="descricao_experiencia">Descrição das suas principais funções na empresa</label>
+                    <textarea name="descricao_experiencia[]" class="form-control" id="descricao_experiencia" rows="5"></textarea>
+                </div>
             </div>
 
-            <h2 class="titulo-seccao">3.2 Atividades complementares</h2>
-            <div class="form-group">
-                <label for="atividades_complementares">Descreva algumas atividades complementares</label>
-                <textarea name="descricao_experiencia[]" class="form-control" id="atividades_complementares" rows="5"></textarea>
-            </div>
+                <h2 class="titulo-seccao">3.2 Atividades complementares</h2>
+                <div class="form-group">
+                    <label for="atividades_complementares">Descreva algumas atividades complementares</label>
+                    <textarea name="descricao_experiencia[]" class="form-control" id="atividades_complementares" rows="5"></textarea>
+                </div>
         </section>
         
         <section>

@@ -121,7 +121,7 @@
 
 
 
-/* 
+ 
 .titulo-seccao{
     background: #2b6696;
     color: #ffffff;
@@ -151,10 +151,16 @@
 
 #adiciona-formacao{margin: 10px 10px;}
 #remover-formacao{
-    margin-top: 20px;
+    margin-top: 35px;
     margin-right: 20px;
     height: 35px;
 }
+#adiciona-experiencia{margin: 10px 10px;}
+#remover-experiencia{
+    margin-right: 20px;
+    height: 35px;
+}
+
 .preview h3{
     font-size: 14pt;
 }
@@ -186,6 +192,6 @@
     border-left: 2px solid #dedede;
 }
 
-*/
+
 .ative{display: block;}
 section{display: none;}
