@@ -54,72 +54,151 @@
                     </ul>
                 </div> 
             </div> <!-- dados pessoais -->
-            <div id="preview-objetivo"  class="preview-step">
+            <div id="preview-objetivo" class="preview-step">
                 <h3>Objetivo</h3>
-                <div class="descricao" id="objetivo-descricao">
-                    <p>
+                <div class="preview-layout-descricao">
+                </div>
+                <div id="preview-objetivo-descricao" class="preview-descricao">
+                    <span id="var_descricao" class="var">
                         busco oportunidade como desenvolvedor backend, para adquirir mais experiência na área.
-                    </p>
+                    </span>
                 </div>
             </div> <!-- objetivo -->
-            <div id="preview-formacao"  class="preview-step">
+            <div id="preview-formacao" class="preview-step">
                 <h3>Formação acadêmica</h3>
                 <div class="item" id="item-1">
-                    <div class="descricao">
-                        <p>
-                            Desenvolvimento de Sistemas <br>
-                            SENAI <br>
-                            2020 <br>
-                        </p>
+                    <div class="preview-layout-descricao">
+                        Curso <br>
+                        Instituição <br>
+                        Conclusão <br>
+                    </div>
+                    <div id="preview-formacao-descricao" class="preview-descricao">
+                        <span id="var_curso" class="var">
+                            Desenvolvimento de Sistemas
+                        </span>
+                        <br>
+                        <span id="var_instituicao" class="var">
+                            SENAI
+                        </span>
+                        <br>
+                        <span id="var_ano_conclusao" class="var">
+                            2020
+                        </span>                        
+                    </div>
+                </div>
+                <div class="item" id="item-2">
+                    <div class="preview-layout-descricao">
+                        Curso <br>
+                        Instituição <br>
+                        Conclusão <br>
+                    </div>
+                    <div id="preview-formacao-descricao" class="preview-descricao">
+                        <span id="var_curso" class="var">
+                            Desenvolvimento de Sistemas
+                        </span>
+                        <br>
+                        <span id="var_instituicao" class="var">
+                            SENAI
+                        </span>
+                        <br>
+                        <span id="var_ano_conclusao" class="var">
+                            2020
+                        </span>                        
                     </div>
                 </div>
             </div> <!-- formacao academica -->
 
             <div id="preview-qualificacoes"  class="preview-step">
                 <h3>Qualificações e Cursos complementares</h3>
+                <div class="preview-layout-descricao">
+                </div>
                 <div class="preview-descricao">
-                    <p>
-                        - Curso de PHP (Dankicode)
-                        - Curso de JS (Exemplo)
-                    </p>
+                    <span id="var_descricao_experiencia" class="var">
+                        - Curso de PHP (Dankicode) <br>
+                        - Curso de JS (Exemplo)    <br> 
+                    </span>
                 </div>
             </div> <!-- qualificacoes -->
 
             <div id="preview-experiencia"  class="preview-step">
                 <h3>Experiência</h3>
                 <div class="item" id="">
-                    <div class="layout">
+                    <div class="preview-layout-descricao">
                         Cargo <br>
                         Empresa <br>
                         Período <br>
                         Funções <br>
                     </div>
-                    <div class="descricao">
-                        <p>
-                            Desenvolvedor PHP <br>
-                            Focomultimídia <br>
-                            2019 - atualmente <br>
-                            Resolução de chamados para correção de bugs, e/ou desenvolvimento de novas funcionalidades no produto, referente ao ramo de hotéis. <br>
-                        </p>
+                    <div class="preview-descricao">
+                        <span id="var_cargo" class="var">
+                            Desenvolvedor PHP
+                        </span>
+                        <br>
+                        <span id="var_empresa" class="var">
+                            Focomultimídia
+                        </span>
+                        <br>
+                        <span id="var_inicio_experiencia">
+                            2019
+                        </span>
+                         - 
+                        <span id="var_fim_experiencia" class="var">
+                            atualmente
+                        </span>
+                        <br>
+                        <span id="var_descricao_experiencia" class="var">
+                            Resolução de chamados para correção de bugs, e/ou desenvolvimento de novas funcionalidades no produto, referente ao ramo de hotéis.
+                        </span>
+                    </div>
+                </div>
+                <div class="item" id="">
+                    <div class="preview-layout-descricao">
+                        Cargo <br>
+                        Empresa <br>
+                        Período <br>
+                        Funções <br>
+                    </div>
+                    <div class="preview-descricao">
+                        <span id="var_cargo" class="var">
+                            Desenvolvedor PHP
+                        </span>
+                        <br>
+                        <span id="var_empresa" class="var">
+                            Focomultimídia
+                        </span>
+                        <br>
+                        <span id="var_inicio_experiencia">
+                            2019
+                        </span>
+                         - 
+                        <span id="var_fim_experiencia" class="var">
+                            atualmente
+                        </span>
+                        <br>
+                        <span id="var_descricao_experiencia" class="var">
+                            Resolução de chamados para correção de bugs, e/ou desenvolvimento de novas funcionalidades no produto, referente ao ramo de hotéis.
+                        </span>
                     </div>
                 </div>
             </div> <!-- experiencia -->
 
             <div id="preview-atv-complementares"  class="preview-step">
                 <h3>Atividades complementares</h3>
-                <div id="objetivo-descricao">
-                    <p>
+                <div class="preview-layout-descricao"></div>
+                <div class="preview-descricao">
+                    <span id="var_atv_complementares" class="var">
                         Realização de relatório de logs quando solicitado por clientes.
-                    </p>
+                    </span>
                 </div>
             </div> <!-- atividades complementares -->
 
             <div id="preview-info-adicionais" class="preview-step">
                 <h3>Informações adicionais</h3>
-                <div class="descricao">
-                    <p>
+                <div class="preview-layout-descricao"></div>
+                <div class="preview-descricao">
+                    <span id="var_info_adicionais" class="var">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci dolorem.
-                    </p>
+                    </span>
                 </div>
             </div>
         </main> <!-- preview-main -->
@@ -143,9 +222,7 @@
         </footer> <!-- preview-footer -->
     </div> <!-- preview -->
 
-
-
-    <!-- <form class="form" action="" method="post">
+    <form class="form" action="" method="post">
         <section class="ative">
             <h2 class="titulo-seccao">1.1 Dados pessoais</h2>
             <div class="form-group">
@@ -328,5 +405,5 @@
                 </div>
             </div>
         </div>
-    </form> -->
+    </form>
 </div>

@@ -1,13 +1,13 @@
 /* Correção do Bootstrap */
-    #curriculum-vitae.container{
-        padding: 0;
-    }
-    #preview .col-8, #preview .col-4{
-        padding: 0;
-    }
-    .preview-toolbar .row{
-        margin: 0;
-    }
+#curriculum-vitae.container{
+    padding: 0;
+}
+#preview .col-8, #preview .col-4{
+    padding: 0;
+}
+.preview-toolbar .row{
+    margin: 0;
+}
 /* Correção do Bootstrap */
 
 
@@ -38,18 +38,11 @@
 
 
 
-/* Preview header */
-#preview-header{}
-/* Preview header */
-
-
-
 /* Preview main */
-#preview-main{}
-
 #preview-main h2, #preview-main h3{
     font-family: "Roboto", sans-serif; 
 }
+
 #preview h3{
     font-size: 21px;
     font-weight: bold;
@@ -89,6 +82,22 @@
     padding: 0 30px;
 }
 
+.preview-layout-descricao{
+    width: 75px;
+    margin-left: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: end;
+}
+
+.preview-descricao{
+    max-width: 550px;
+    border-left: 1px solid #ccc;
+    padding: 0 10px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
 #preview-formacao{
     padding: 0 30px;
 }
@@ -108,21 +117,16 @@
 #preview-info-adicionais{
     padding: 0 30px;
 }
-
 /* Preview main */
 
 
 
-/* Preview footer */
-#preview-footer{}
-/* Preview main */
+/* Formulario */
+#curriculum-vitae form .form-group{
+    margin: 10px 30px;
+}
 
-
-
-
-
-/* 
-.titulo-seccao{
+#curriculum-vitae form .titulo-seccao{
     background: #2b6696;
     color: #ffffff;
     height: 40px;
@@ -130,51 +134,8 @@
     line-height: 40px;
     padding: 0 10px;
 }
+/* Formulario */
 
-.form-group{
-    margin: 15px 0;
-}
-
-.preview-main{
-    padding: 0 20px;
-    margin-bottom: 100px;
-}
-
-.preview-main h2{
-    margin-bottom: 20px;
-}
-
-.preview h3{
-    font-size: 14pt;
-}
-
-.preview-main .dados-pessoais .topo{
-    margin-top: 50px;
-}
-
-.preview-main .dados-pessoais .topo p{
-    margin: 0;
-    font-size: 14px;
-}
-
-.preview-main .contato{
-    background: #eeeeee;
-    margin: 40px 0;
-}
-
-
-
-.preview-main .contato ul li{
-    display: flex;
-    align-items: center;
-}
-
-.preview-main .descricao p{
-    margin-left: 60px;
-    padding-left: 10px;
-    border-left: 2px solid #dedede;
-}
-
-*/
+/* Auxoliar */
 .ative{display: block;}
-section{display: none;}
+/* Auxiliar */
