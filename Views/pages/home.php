@@ -1,6 +1,6 @@
 <div id="curriculum-vitae" class="container">
 
-<div id="preview">
+    <div id="preview">
         <headear id="preview-header">
             <div class="preview-toolbar">
                 <div class="row">
@@ -314,27 +314,28 @@
 
         <section>
             <div id="formacoes">
-            <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
-            <button id="adiciona-formacao" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar formação</button>
-            <div class="form-group">
-                <label for="curso">Curso</label>
-                <input type="text" class="form-control" id="curso" name="curso[]">
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <label for="instituicao">Instituição</label>
-                        <input type="text" class="form-control" id="instituicao" name="instituicao[]">
+                <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
+                <div class="form-group">
+                    <button id="adiciona-formacao" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar formação</button>
+                </div>
+                <div class="form-group">
+                    <label for="curso">Curso</label>
+                    <input type="text" class="form-control" id="curso" name="curso[]">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="instituicao">Instituição</label>
+                            <input type="text" class="form-control" id="instituicao" name="instituicao[]">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="ano_conclusao">Ano de conclusão</label>
+                            <input type="text" class="form-control" name="ano_conclusao[]">
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="form-group">
-                        <label for="ano_conclusao">Ano de conclusão</label>
-                        <input type="text" class="form-control" name="ano_conclusao[]">
-                    </div>
-                </div>
-            </div>
-
             </div>
             
             <h2 class="titulo-seccao">2.2 Qualificações e cursos complementares</h2>
@@ -347,7 +348,9 @@
         <section>
             <div id="experiencias">
                 <h2 class="titulo-seccao">3.2 Experiência</h2>
-                <button id="adiciona-experiencia" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar experiência</button>
+                <div class="form-group">
+                    <button id="adiciona-experiencia" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar experiência</button>
+                </div>
                 <div class="form-group">
                     <label for="empresa">Empresa</label>
                     <input type="text" class="form-control" id="empresa" name="empresa[]">
