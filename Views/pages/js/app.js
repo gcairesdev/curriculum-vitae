@@ -1,3 +1,17 @@
+// Função de mostrar preview
+$(document).ready(function(){
+   $('#pre-visualizar').click(function(){
+      $('#preview').addClass('ative');
+   })
+});
+
+// Função de esconder preview
+$(document).ready(function(){
+   $('.preview-btn-close').click(function(){
+      $('#preview').removeClass('ative');
+   })
+});
+
 // Função do botão seguinte
 $(document).ready(function(){
     $('.next').click(function(){
@@ -15,6 +29,7 @@ $(document).ready(function(){
        removeClass('ative');
  })
  });
+
 // Função para por mascaras nos inputs
 $(document).ready(function(){
    $("#tel_residencial").mask('(99) 9999-9999');

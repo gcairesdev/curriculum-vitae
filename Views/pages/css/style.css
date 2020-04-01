@@ -27,6 +27,12 @@ section {display: none;}
 
 /* Preview */
 #preview{
+    width: 750px;
+    position: absolute;
+    z-index: 5;
+    background: #ffffff;
+    box-shadow: slategrey 5px 10px 15px;
+    display: none;
     font-size: 14px;
 }
 
@@ -124,6 +130,10 @@ section {display: none;}
 
 
 /* Formulario */
+#curriculum-vitae form{
+    z-index: 1;
+}
+
 #curriculum-vitae form .form-group{
     margin: 10px 30px;
 }
@@ -139,5 +149,5 @@ section {display: none;}
 /* Formulario */
 
 /* Auxoliar */
-.ative{display: block;}
+.ative{display: block !important;}
 /* Auxiliar */
