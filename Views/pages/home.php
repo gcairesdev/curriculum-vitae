@@ -272,13 +272,13 @@
                 <div class="col">
                     <div class="form-group">
                         <label for="tel_residencial">Telefone residencial</label>
-                        <input type="text" name="tel_residencial" class="form-control" id="tel_residencial" placeholder="(00) 1234-5678">
+                        <input type="text" name="tel_residencial" class="number form-control" id="tel_residencial" placeholder="(00) 1234-5678">
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-group">
                         <label for="celular">Celular</label>
-                        <input type="text" name="celular" class="form-control" id="celular" placeholder="(00) 9 1234-5678">
+                        <input type="text" name="celular" class="number form-control" id="celular" placeholder="(00) 9 1234-5678">
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@
             </div>
             <div class="form-group">
                 <label for="cep">Cep</label>
-                <input type="text" name="cep" class="form-control" id="cep">
+                <input type="text" name="cep" class="number form-control" id="cep">
             </div>
 
             <h2 class="titulo-seccao">1.2 Objetivo</h2>

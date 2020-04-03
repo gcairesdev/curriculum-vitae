@@ -14,29 +14,35 @@ $(document).ready(function(){
 
 // Função do botão seguinte
 $(document).ready(function(){
-    $('.next').click(function(){
-       $('.form').find('section.ative').next('section').
-       addClass('ative').prev().
-       removeClass('ative');
- })
- });
- 
- // Função do botão anterior
- $(document).ready(function(){
-    $('.prev').click(function(){
-       $('.form').find('section.ative').prev().
-       addClass('ative').next().
-       removeClass('ative');
- })
- });
+   $('.next').click(function(){
+      $('.form').find('section.ative').next('section').
+      addClass('ative').prev().
+      removeClass('ative');
+   })
+});
+
+// Função do botão anterior
+$(document).ready(function(){
+   $('.prev').click(function(){
+      $('.form').find('section.ative').prev().
+      addClass('ative').next().
+      removeClass('ative');
+   })
+});
 
 // Função para por mascaras nos inputs
 $(document).ready(function(){
    $("#tel_residencial").mask('(99) 9999-9999');
    $("#celular").mask('(99) 9 9999-9999');
    $("#cep").mask('99.999-999');
-
+   
+   //Função para só permitir entrada de números no input.
+   $(document).on('keypress','.number',function(){
+      return event.charCode >= 48 && event.charCode <= 57;	
+   });
+   
 });
+
 
 //Função para adicionar uma nova formação acadêmica.
 $('#adiciona-formacao').click(function(e){
