@@ -1,61 +1,67 @@
 # JS Curriculum Generator
-Sistema para criação de currículo.
+> Gerador de curriculum vitae através de uma simples página HTML. 
 
-## Padrão de commit
+Teste em um click: https://gcairesdev.github.io/js-curriculum-generator/ 
 
-### Mensagens de commit
+<p align="center">
+    <img src="img/cv-icon.svg" width="100px" style="color: #F0DB4F">
+</p>
 
-- Usar modo imperativo ("Adiciona feature" , "Adicionando feature" ou "Adicionada feature")
-- Primeira linha deve ter no máximo 72 caracteres
+![](img/js-curriculum-generator.png)
+
+## Instalação
+
+Todos os sistemas operacionais:
+
+```sh
+git clone https://github.com/gcairesdev/js-curriculum-generator
+```
+
+_ou_
+
+faça o download em um <a href="https://github.com/gcairesdev/js-curriculum-generator/archive/master.zip" target="_blank">click</a>.
+
+## Criadores
+
+Foto | Nome | GitHub | Likedin | E-mail
+---- | ---- | ------ | ------- | ------
+<img src="https://avatars1.githubusercontent.com/u/54117888?s=460&u=aa7d6143c4e1fdab1ffa6e5fd5ebfe64572f2eae&v=4" width="100px"> | Guilherme Caires | [gcairesdev](https://github.com/gcairesdev) | [Linkedin](https://linkedin/in/guilherme-caires/) | contatogcaires@gmail.com
+<img src="https://avatars2.githubusercontent.com/u/56545903?s=400&u=7445f50f4a7c02a76fef37d74a1f84b2bf2c7109&v=4" width="100px"> | Jefferson Eloy | [jeffer5504](https://github.com/jeff5504) | [Linkedin](https://linkedin/in/jefferson-eloy-6321a81a8/) | contatojeloydev@gmail.com
+
+## Contribuição
+
+1. Faça o fork (<https://github.com/gcairesdev/js-curriculum-generator/fork>)
+2. Crie a branch da sua modificação (`git checkout -b feature/modelos-cv`)
+3. Commit suas mudanças (`git commit -am ':rocket: Add mais modelos de cv'`)
+4. Faça push para sua branch (`git push origin feature/modelos-cv`)
+5. Crie um Pull Request
+
+### Commit 
+
+- Usar modo imperativo ("Adiciona feature" não "Adicionando feature" ou "Adicionada feature")
+- Primeira linha deve ter no máximo 70 caracteres
 - Considere descrever com detalhes no corpo do commit
-- Utilizar um emoji no início da mensagem de commit
+- Obrigatório usar um emoji no início da mensagem de commit
 
-| Emoji                                         |   Commit type              
-|:----------------------------------------------|:---------------------------
-| :tada: `:tada:`                               | Commit inicial             
-| :bookmark: `:bookmark:`                       | Tag de versão              
-| :sparkles: `:sparkles:`                       | Nova feature           
-| :bug: `:bug:`                                 | Correção de bug          
-| :card_index: `:card_index:`                   | Metadata            
-| :books: `:books:`                             | Documentação     
-| :bulb: `:bulb:`                               | Documentando código fontes 
-| :racehorse: `:racehorse:`                     | Desempenho
-| :lipstick: `:lipstick:`                       | Estilo                
-| :rotating_light: `:rotating_light:`           | Testes                
-| :white_check_mark: `:white_check_mark:`       | Adicionando um teste         
-| :heavy_check_mark: `:heavy_check_mark:`       | Fazendo um teste passar         
-| :zap: `:zap:`                                 | Atualização geral             
-| :art: `:art:`                                 | Melhorar formato/estrutura   
-| :hammer: `:hammer:`                           | Refatoração do código            
-| :fire: `:fire:`                               | Removendo código/arquivos      
-| :green_heart: `:green_heart:`                 | Integração contínua    
-| :lock: `:lock:`                               | Segurança         
-| :arrow_up: `:arrow_up:`                       | Atualizando dependências   
-| :arrow_down: `:arrow_down:`                   | Desatualizando dependências              
-| :alien: `:alien:`                             | Tradução                
-| :pencil: `:pencil:`                           | Texto                   
-| :ambulance: `:ambulance:`                     | Correção rápida urgente       
-| :rocket: `:rocket:`                           | Implementando coisas           
-| :apple: `:apple:`                             | Corrigindo no MacOs          
-| :penguin: `:penguin:`                         | Corrigindo no Linux            
-| :checkered_flag: `:checkered_flag:`           | Corrigindo Windows       
-| :construction:  `:construction:`              | Em contrução      
-| :heavy_minus_sign: `:heavy_minus_sign:`       | Removendo uma dependência     
-| :heavy_plus_sign: `:heavy_plus_sign:`         | Adicionando uma dependência                            
-| :wrench: `:wrench:`                           | Configurção de arquivos      
-| :package: `:package:`                         | Package.json em JS         
-| :twisted_rightwards_arrows: `:twisted_rightwards_arrows:` | Mesclando ramificações          
-| :hankey: `:hankey:`                           | Gambiarra / Código ruim   
-| :rewind: `:rewind:`                           | Revertendo mudanças       
-| :boom: `:boom:`                               | Quebrando mudanças       
-| :ok_hand: `:ok_hand:`                         | Alterações na revisão de código      
-| :wheelchair: `:wheelchair:`                   | Acessibilidade       
-| :truck: `:truck:`                             | Mover/enomear repositório     
+Emoji | Código | Tipo do commit
+------------ | ------------- | -------------
+:tada: | `:tada:` | initial commit
+:art: | `:art:` | quando melhorar a estrutura/formato do código
+:racehorse: | `:racehorse:` | quando melhorar a performance
+:memo: | `:memo:` | quando escrever alguma documentação
+:bug: | `:bug:` | quando corrigir um bug
+:fire: | `:fire:` | quando remover código ou arquivos
+:lock: | `:lock:` | quando melhorar a segurança
+:poop: | `:poop:` | deprecated
+:construction: | `:construction:` | em construção
+:rocket: | `:rocket:` | nova feature
+:see_no_evil: | `:see_no_evil:` | gambiarra
+:gift: | `:gift:` | nova versão 
 
-#### Exemplo
+### Exemplo
 ```bash
 git commit -m ":memo: Adiciona instruções de contribuição
 >
-> Foi criado o arquivo CONTRIBUTING.md com as instruções de
-> como fazer um bom commit"
+> Foi criado o arquivo README.md com as instruções de
+> como fazer um bom commit
 ``` 
