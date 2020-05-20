@@ -1,4 +1,4 @@
-# curriculum-vitae
+# JS Curriculum Generator
 Sistema para criação de currículo.
 
 ## Padrão de commit
