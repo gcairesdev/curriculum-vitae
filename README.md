@@ -4,7 +4,7 @@
 Teste em um click: https://gcairesdev.github.io/js-curriculum-generator/ 
 
 <p align="center">
-    <img src="img/cv-icon.svg" width="100px" style="color: #F0DB4F">
+    <img src="img/cv-icon.svg" width="100px">
 </p>
 
 ![](img/js-curriculum-generator.png)
