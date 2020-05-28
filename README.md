@@ -25,8 +25,8 @@ faça o download em um <a href="https://github.com/gcairesdev/js-curriculum-gene
 
 Foto | Nome | GitHub | Likedin | E-mail
 ---- | ---- | ------ | ------- | ------
-<img src="https://avatars1.githubusercontent.com/u/54117888?s=460&u=aa7d6143c4e1fdab1ffa6e5fd5ebfe64572f2eae&v=4" width="100px"> | Guilherme Caires | [gcairesdev](https://github.com/gcairesdev) | [Linkedin](https://linkedin/in/guilherme-caires/) | contatogcaires@gmail.com
-<img src="https://avatars2.githubusercontent.com/u/56545903?s=400&u=7445f50f4a7c02a76fef37d74a1f84b2bf2c7109&v=4" width="100px"> | Jefferson Eloy | [jeffer5504](https://github.com/jeff5504) | [Linkedin](https://linkedin/in/jefferson-eloy-6321a81a8/) | contatojeloydev@gmail.com
+<img src="https://avatars1.githubusercontent.com/u/54117888?s=460&u=aa7d6143c4e1fdab1ffa6e5fd5ebfe64572f2eae&v=4" width="100px"> | Guilherme Caires | [gcairesdev](https://github.com/gcairesdev) | [Linkedin](https://linkedin.com/in/guilherme-caires/) | contatogcaires@gmail.com
+<img src="https://avatars2.githubusercontent.com/u/56545903?s=400&u=7445f50f4a7c02a76fef37d74a1f84b2bf2c7109&v=4" width="100px"> | Jefferson Eloy | [jeffeloy](https://github.com/jeffeloy) | [Linkedin](https://linkedin.com/in/jefferson-eloy) | contatojeloydev@gmail.com
 
 ## Contribuição
 
