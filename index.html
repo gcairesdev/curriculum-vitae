@@ -327,7 +327,14 @@
                 <div id="formacoes">
                     <h2 class="titulo-seccao">2.1 Formação acadêmica</h2>
                     <div class="form-group">
-                        <button id="adiciona-formacao" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar formação</button>
+                        <button id="adiciona-formacao" class="btn btn-info">
+                            <i class="fas fa-plus-square"></i> 
+                            Adicionar formação
+                        </button>
+                        <button id="remove-formacao" class="btn btn-danger">
+                            <i class="fas fa-minus-square"></i>
+                            Remover formação
+                        </button>
                     </div>
                     <div class="formacao">
                         <div class="form-group">
@@ -362,37 +369,46 @@
                 <div id="experiencias">
                     <h2 class="titulo-seccao">3.2 Experiência</h2>
                     <div class="form-group">
-                        <button id="adiciona-experiencia" class="btn btn-info"><i class="fas fa-plus-square"></i> Adicionar experiência</button>
+                        <button id="adiciona-experiencia" class="btn btn-info">
+                            <i class="fas fa-plus-square"></i>
+                            Adicionar experiência
+                        </button>
+                        <button id="remove-experiencia" class="btn btn-danger">
+                            <i class="fas fa-minus-square"></i>
+                            Remover experiência
+                        </button>
                     </div>
-                    <div class="form-group">
-                        <label for="empresa">Empresa</label>
-                        <input type="text" class="form-control" id="empresa" name="empresa[]">
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="inicio_experiencia">Início em</label>
-                                <input type="date" class="form-control" id="inicio_experiencia" name="inicio_experiencia[]">
+                    <div class="experiencia">
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" class="form-control" id="empresa" name="empresa[]">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="inicio_experiencia">Início em</label>
+                                    <input type="date" class="form-control" id="inicio_experiencia" name="inicio_experiencia[]">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="fim_experiencia">Fim em</label>
+                                    <input type="date" class="form-control" id="fim_experiencia" name="fim_experiencia[]">
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="fim_experiencia">Fim em</label>
-                                <input type="date" class="form-control" id="fim_experiencia" name="fim_experiencia[]">
-                            </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="trabalho_atual" id="trabalho_atual">
+                            <label for="trabalho_atual">Trabalho atualmente nessa empresa</label>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" name="trabalho_atual" id="trabalho_atual">
-                        <label for="trabalho_atual">Trabalho atualmente nessa empresa</label>
-                    </div>
-                    <div class="form-group">
-                        <label for="cargo">Cargo</label>
-                        <input type="text" class="form-control" id="cargo" name="cargo[]">
-                    </div>
-                    <div class="form-group">
-                        <label for="descricao_experiencia">Descrição das suas principais funções na empresa</label>
-                        <textarea name="descricao_experiencia[]" class="form-control" id="descricao_experiencia" rows="5"></textarea>
+                        <div class="form-group">
+                            <label for="cargo">Cargo</label>
+                            <input type="text" class="form-control" id="cargo" name="cargo[]">
+                        </div>
+                        <div class="form-group">
+                            <label for="descricao_experiencia">Descrição das suas principais funções na empresa</label>
+                            <textarea name="descricao_experiencia[]" class="form-control" id="descricao_experiencia" rows="5"></textarea>
+                        </div>
                     </div>
                 </div>
 
@@ -430,11 +446,11 @@
             </div>
         </form> <!-- form -->
     </main>
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/jquery.mask.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/all.min.js" ></script>
-    <script src="js/app.js"></script>
+    <script defer src="js/jquery-3.4.1.slim.min.js"></script>
+    <script defer src="js/jquery.mask.min.js"></script>
+    <script defer src="js/popper.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/all.min.js" ></script>
+    <script defer src="js/app.js"></script>
 </body>
 </html>
