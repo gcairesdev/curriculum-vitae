@@ -21,7 +21,7 @@ _ou_
 
 faça o download em um <a href="https://github.com/gcairesdev/js-curriculum-generator/archive/master.zip" target="_blank">click</a>.
 
-## Criadores
+## Autores
 
 Foto | Nome | GitHub | Likedin | E-mail
 ---- | ---- | ------ | ------- | ------
