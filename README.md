@@ -45,16 +45,16 @@ Foto | Nome | GitHub | Likedin | E-mail
 
 Emoji | Código | Tipo do commit
 ------------ | ------------- | -------------
-:tada: | `:tada:` | initial commit
+:tada: | `:tada:` | commit inicial
 :art: | `:art:` | quando melhorar a estrutura/formato do código
 :racehorse: | `:racehorse:` | quando melhorar a performance
 :memo: | `:memo:` | quando escrever alguma documentação
 :bug: | `:bug:` | quando corrigir um bug
 :fire: | `:fire:` | quando remover código ou arquivos
 :lock: | `:lock:` | quando melhorar a segurança
-:poop: | `:poop:` | deprecated
+:poop: | `:poop:` | descontinuado
 :construction: | `:construction:` | em construção
-:rocket: | `:rocket:` | nova feature
+:rocket: | `:rocket:` | nova funcionalidade
 :see_no_evil: | `:see_no_evil:` | gambiarra
 :gift: | `:gift:` | nova versão 
 
