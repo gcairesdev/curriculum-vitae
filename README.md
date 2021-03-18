@@ -1,67 +1,90 @@
-# JS Curriculum Generator
-> Gerador de curriculum vitae através de uma simples página HTML. 
-
-Teste em um click: https://gcairesdev.github.io/js-curriculum-generator/ 
-
 <p align="center">
-    <img src="img/cv-icon.svg" width="100px">
+    <img src=".github/img/logo.png"></img>
 </p>
 
-![](img/js-curriculum-generator.png)
+<p align="center">
+    <a href="https://github.com/gcairesdev/curriculum">
+        <img src="https://img.shields.io/github/languages/code-size/gcairesdev/curriculum?color=33abe1&style=for-the-badge&labelColor=5c5e70"></img>
+    </a>
+    <a href="https://github.com/gcairesdev/curriculum/blob/master/LICENSE.md">
+        <img src="https://img.shields.io/github/languages/top/gcairesdev/curriculum?color=ffd15c&style=for-the-badge&labelColor=5c5e70"></img>
+    </a>
+    <a href="https://github.com/gcairesdev/curriculum">
+        <img src="https://img.shields.io/github/license/gcairesdev/curriculum?color=ff515c&style=for-the-badge&labelColor=5c5e70"></img>
+    </a>
+</p>
 
-## Instalação
+# Índice
 
-Todos os sistemas operacionais:
+* [Sobre o projeto](#curriculum)
+    * [Feito com](#feito-com)
+* [Iniciando](#iniciando)
+    * [Pré requisitos](#pré-requisitos)
+    * [Instalação](#instalação)
+* [Autor](#autor)
+* [Contribuindo](#contribuindo)
+* [Licença](#licença)
 
-```sh
-git clone https://github.com/gcairesdev/js-curriculum-generator
+## Curriculum
+> Crie seu curriculum vitae e salve em PDF.
+
+Proporciona uma página web para criação de um currículo, com informações pessoais
+e profissionais.
+
+### Feito com
+* [HTML 5](https://www.w3schools.com/html/)
+* [CSS 3](https://www.w3schools.com/css/)
+* [JavaScript](https://www.w3schools.com/js/)
+
+### Iniciando
+
+Para iniciar, veja os pré requisitos do projeto.
+
+### Pré requisitos
+* [Git](https://git-scm.com/)
+* [Navegador](https://www.google.com/search?q=navegador)
+
+### Instalação
+
+Teste online no [GitHub Pages](https://gcairesdev.github.io/curriculum/)
+
+Clone o repositório:
+
+```git
+git clone https://github.com/gcairesdev/curriculum
 ```
 
-_ou_
+Abra o arquivo:
 
-faça o download em um <a href="https://github.com/gcairesdev/js-curriculum-generator/archive/master.zip" target="_blank">click</a>.
+```
+index.html
+```
 
-## Autores
+## Autor
 
-Foto | Nome | GitHub | Likedin | E-mail
----- | ---- | ------ | ------- | ------
-<img src="https://avatars1.githubusercontent.com/u/54117888?s=460&u=aa7d6143c4e1fdab1ffa6e5fd5ebfe64572f2eae&v=4" width="100px"> | Guilherme Caires | [gcairesdev](https://github.com/gcairesdev) | [Linkedin](https://linkedin.com/in/guilherme-caires/) | contatogcaires@gmail.com
-<img src="https://avatars2.githubusercontent.com/u/56545903?s=400&u=7445f50f4a7c02a76fef37d74a1f84b2bf2c7109&v=4" width="100px"> | Jefferson Eloy | [jeffeloy](https://github.com/jeffeloy) | [Linkedin](https://linkedin.com/in/jefferson-eloy) | contatojeloydev@gmail.com
+|                |                  |          |            |         |
+|----------------|------------------|----------|------------|---------|
+| ![][githubImg] | Guilherme Caires | [Github] | [Linkedin] | [Email] |
 
-## Contribuição
+## Contribuindo
 
-1. Faça o fork (<https://github.com/gcairesdev/js-curriculum-generator/fork>)
-2. Crie a branch da sua modificação (`git checkout -b feature/modelos-cv`)
-3. Commit suas mudanças (`git commit -am ':rocket: Add mais modelos de cv'`)
-4. Faça push para sua branch (`git push origin feature/modelos-cv`)
-5. Crie um Pull Request
+Confira a página [CONTRIBUTING](./CONTRIBUTING.md) para ver os melhores locais
+para arquivar problemas, iniciar discussões e começar a contribuir.
 
-### Commit 
+## Licença
 
-- Usar modo imperativo ("Adiciona feature" não "Adicionando feature" ou "Adicionada feature")
-- Primeira linha deve ter no máximo 70 caracteres
-- Considere descrever com detalhes no corpo do commit
-- Obrigatório usar um emoji no início da mensagem de commit
+Lançado em 2021.
+Este projeto está sob a [Licença MIT](./LICENSE.md).
 
-Emoji | Código | Tipo do commit
------------- | ------------- | -------------
-:tada: | `:tada:` | commit inicial
-:art: | `:art:` | quando melhorar a estrutura/formato do código
-:racehorse: | `:racehorse:` | quando melhorar a performance
-:memo: | `:memo:` | quando escrever alguma documentação
-:bug: | `:bug:` | quando corrigir um bug
-:fire: | `:fire:` | quando remover código ou arquivos
-:lock: | `:lock:` | quando melhorar a segurança
-:poop: | `:poop:` | descontinuado
-:construction: | `:construction:` | em construção
-:rocket: | `:rocket:` | nova funcionalidade
-:see_no_evil: | `:see_no_evil:` | gambiarra
-:gift: | `:gift:` | nova versão 
+---
 
-### Exemplo
-```bash
-git commit -m ":memo: Adiciona instruções de contribuição
->
-> Foi criado o arquivo README.md com as instruções de
-> como fazer um bom commit
-``` 
+<p align="center">
+    Feito com :heart: por
+    <a href="https://github.com/gcairesdev">Guilherme Caires</a>
+</p>
+
+<!-- Markdown link & img dfn's -->
+[Github]: https://github.com/gcairesdev
+[GithubImg]: https://avatars.githubusercontent.com/u/54117888?s=100
+[Linkedin]: https://linkedin.com/in/guilherme-caires/
+[Email]: contatogcaires@gmail.com
